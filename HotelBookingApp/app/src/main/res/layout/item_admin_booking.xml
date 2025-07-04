@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f5f5f5"
+    android:layout_marginBottom="8dp">
+
+    <TextView
+        android:id="@+id/tvAdminUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User" />
+
+    <TextView
+        android:id="@+id/tvAdminRoom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Room" />
+
+    <TextView
+        android:id="@+id/tvAdminDates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dates" />
+
+    <TextView
+        android:id="@+id/tvAdminGuests"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guests" />
+
+    <TextView
+        android:id="@+id/tvAdminStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/btnConfirm"
+            android:text="Confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:text="Cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp" />
+
+        <Button
+            android:id="@+id/btnDeleteBooking"
+            android:text="Delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"/>
+    </LinearLayout>
+</LinearLayout>

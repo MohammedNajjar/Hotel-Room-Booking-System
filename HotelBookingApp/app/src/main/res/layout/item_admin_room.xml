@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="6dp"
+    app:cardBackgroundColor="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tvAdminRoomNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Room 101"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@color/text_primary"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:id="@+id/tvAdminRoomType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Deluxe Suite"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@color/text_primary"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:id="@+id/tvAdminRoomPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$120/night"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@color/accent"
+                android:layout_gravity="end" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/tvAdminRoomAvailability"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Available"
+                android:textColor="@color/success"
+                android:textSize="14sp"
+                android:layout_marginEnd="16dp" />
+
+            <TextView
+                android:id="@+id/tvAdminRoomView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ocean View"
+                android:textColor="@color/text_secondary"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end"
+            android:layout_marginTop="16dp">
+
+            <Button
+                android:id="@+id/btnEditRoom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edit"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/warning"
+                android:layout_marginEnd="12dp" />
+
+            <Button
+                android:id="@+id/btnDeleteRoom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/error" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
